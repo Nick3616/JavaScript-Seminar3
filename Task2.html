@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task2</title>
+</head>
+
+<body>
+    <script>
+        let arr = ['a', 'b', 'c'];
+
+        arr[0] = prompt("Введите слово:");
+        arr[1] = prompt("Введите предложение:");
+        arr[2] = prompt("Введите новую букву:");
+
+        if (arr[0] === null || arr[1] === null || arr[2] === null || arr[0].trim() === "" || arr[1].trim() === "" || arr[2].trim() === "") {
+            alert("Не все элементы были введены. Попробуйте снова.");
+        } else {
+            alert("Слово: " + arr[0] + " Предложение: " + arr[1] + " Буква: " + arr[2]);
+        }
+    </script>
+</body>
+
+</html>
